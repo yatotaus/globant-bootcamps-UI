@@ -51,10 +51,10 @@ exercises.
 
 10. [Learning Days](#learning-days)
 
-  - 10.1 [Week 1: HTML, CSS and Javascript](#week-1-html-css-and-javascript)
-  - 10.2 [Week 2: Diving into JavaScript and Node 101](#week-2-diving-into-javascript-and-node-101)
-  - 10.3 [Week 3: TypeScript and Angular 101](#week-3-typescript-and-angular-101)
-  - 10.4 [Week 4: Angular 201](#week-4-angular-201)
+  - 10.1 [Week 1: Week 0 review. Diving into JavaScript and Node 101](#week-1-html-css-and-javascript)
+  - 10.2 [Week 2: Angular 101 and TypeScript - Part 1](#week-2-diving-into-javascript-and-node-101)
+  - 10.3 [Week 3: TypeScript - Part 2 and Angular 5 - Part 1](#week-3-typescript-and-angular-101)
+  - 10.4 [Week 4: Angular 5 - Part 2 and Challenge](#week-4-angular-201)
 
 
 ### Objective
@@ -65,15 +65,14 @@ We will teach you the basics of Web development using JavaScript and [Single Pag
 
 ### Who Should Attend
 
-The materials will start at a low level and does not require in depth knowledge
-of the platform in question. Desirable participant profile: trainees and outside
-Globant candidates. A basic knowledge on OOP is desired, though.
+Participants should have basic knowledge on HTML, CSS and Javascript. This topics
+will only be reviewed, reinforcing some Javascript concepts during week 1.
 
 → [index](#index)
 
 ### Duration
 
-Four weeks total. (20 days)
+20 + 5 days. Four weeks total for content. One extra week (5th) to complete bootcamp challenge.
 
 → [index](#index)
 
@@ -124,20 +123,24 @@ account. Also you can read further about Git in
 
 The Bootcamp is organized in the following way:
 
-![Calendar](assets/calendar-new.png)
+![Calendar](assets/calendar-updated.png)
 
-The first week is oriented to learn the basics around HTML and CSS and JavaScript.
-You will be doing some exercises along your reading
+Week 0 is a representation of what should the attendant already know. 
+Basics around HTML, CSS and JavaScript are pretended.
 
-The second week dives deep into `JavaScript` and some `Node.js` _mumbo jumbo_.
-Again, you will have homework to do for the week.
+The first week reviews Week 0 knowledge to make sure all of us are on the same page.
+Also dives deep into `JavaScript` and some `Node.js` _mumbo jumbo_ + `Express`.
 
-The third week introduces you to TypeScript and Angular. JavaScript is an easy typed language,
-that means
+The second week introduces you to AngularJS and TypeScript. 
+There are several AngularJS apps laying around, so diving into some
+core concepts is useful. JavaScript is an easy typed language,that means
 as a developer you have total control over the whole structure of the code. Sometimes that's an advantage, but as the app grows and more people become involved things go out of hand.
-That's when TypeScript comes to the rescue. At the end of this week you will make the famous `Tour of Heroes` app.
+That's when TypeScript comes to the rescue. Some concepts will be studied during this week too.
 
-The last week will be focused on starting an app and learning some _shiny cool_ stuff. You need to present your work at the end of the week, _however_
+The third week continues with some TypeScript concepts and introduces Angular 5.
+At this point you will start with the famous `Tour of Heroes` app.
+
+The last week will be focused on two things: more Angular 5 core concepts, and starting an app and learning some _shiny cool_ stuff. You need to present your work at the end of the week, _however_
 you can keep working on it (more on that later).
 
 ### You will encounter some pages with extra excercises on them. You have the power to choose if you want to do them or not. Just remember, if you do, put them on the [extra folder](src/extra)
