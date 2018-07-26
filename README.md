@@ -65,14 +65,14 @@ We will teach you the basics of Web development using JavaScript and [Single Pag
 
 ### Who Should Attend
 
-Participants should have basic knowledge on HTML, CSS and Javascript. This topics
-will only be reviewed, reinforcing some Javascript concepts during week 1.
+Participants should have basic knowledge on HTML, CSS and JavaScript. This topics
+will only be reviewed, reinforcing some JavaScript concepts during week 1.
 
 → [index](#index)
 
 ### Duration
 
-20 + 5 days. Four weeks total for content. One extra week (5th) to complete bootcamp challenge.
+20 + 5 days. Four weeks for content (20 days). One extra week (5 days) to complete bootcamp challenge.
 
 → [index](#index)
 
@@ -133,9 +133,9 @@ Also dives deep into `JavaScript` and some `Node.js` _mumbo jumbo_ + `Express`.
 
 The second week introduces you to AngularJS and TypeScript. 
 There are several AngularJS apps laying around, so diving into some
-core concepts is useful. JavaScript is an easy typed language,that means
+core concepts is useful. JavaScript is an easy typed language, that means
 as a developer you have total control over the whole structure of the code. Sometimes that's an advantage, but as the app grows and more people become involved things go out of hand.
-That's when TypeScript comes to the rescue. Some concepts will be studied during this week too.
+That's when TypeScript comes to the rescue, and some concepts will be studied during this week too.
 
 The third week continues with some TypeScript concepts and introduces Angular 5.
 At this point you will start with the famous `Tour of Heroes` app.
@@ -206,9 +206,9 @@ You will commit all your code on a daily basis, when you finish your practice. T
 
 _Now let's get down to business_
 
-# Week 1: HTML, CSS and JavaScript
+# Week 0: HTML, CSS and JavaScript
 
-## Day 0: _At the beginning t wast all HTML & CSS_
+## Day 0: _At the beginning it wasn't all HTML & CSS_
 
 So, what's _day 0_?
 
@@ -238,9 +238,9 @@ JavaScript is a programming language that runs in all Web Browsers. Using JavaSc
 - Some other Globbers made this ~~meme-less~~ awesome [HTML & CSS 101](https://github.com/globant-ui/css-lab).
 
 ### Exercise:
-So... I'm going to be honest with you, I'm lazy ~~as any dev should~~ and I'm not going to re-invent the weel ~~work extra~~.
-Your first days work is with our friends at [HTML & CSS 101](https://github.com/globant-ui/css-lab).
-Just put all your work under [day0](src/week1/day0)
+Despite this is supposed to be just a review, you've got some exercises to do if you want.
+You can find them at [HTML & CSS 101](https://github.com/globant-ui/css-lab).
+Just put all your work under [hmtl-css-review](src/week0/hmtl-css-review)
 
 ### ~~Not so~~ Optional Reading
 - [Responsive Design](https://developers.google.com/web/fundamentals/design-and-ux/responsive/)
@@ -250,7 +250,7 @@ Just put all your work under [day0](src/week1/day0)
 
 → [index](#index)
 
-## Day 3 - 5: Hello JavaScript
+## Hello JavaScript
 
 _Yes, I know I missed the other days, but c'mon. I'm giving you space to learn._
 
@@ -273,17 +273,16 @@ I hope you liked that book, because it's going to stick with us for the rest of 
 - [Js Functions](http://eloquentjavascript.net/03_functions.html)
 - [Js Data Structures: Objects and Arrays](http://eloquentjavascript.net/04_data.html)
 
-### Excercise:
+### Exercise:
 
-I think you noticed by now, but there are a few exercises inside the reading material (awesome, I know). Do them, this is basic `Js` and we need you to have fun with it.
-
-Just put all your work under [day2-5](src/week1/day2-5) once you finished the exercises on page.
+I think you noticed by now, but there are a few exercises inside the reading material (awesome, I know). As we said before, this is just a review but if you want you can do them!
+Just put all your work under [javascript-review](src/week0/javascript-review) once you finished the exercises on page.
 
 → [index](#index)
 
-# Week 2: Diving into JavaScript and Node 101
+# Week 1: Diving into JavaScript and Node 101
 
-## Day 6: The Secret Life of Objects
+## Day 1: The Secret Life of Objects
 
 ![Suspicious](assets/suspicious.gif)
 
