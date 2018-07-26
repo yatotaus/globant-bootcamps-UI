@@ -432,7 +432,7 @@ Don't be afraid to Google stuff, no developer remembers everything
 
 → [index](#index)
 
-# Week 2: Angular 101 and TypeScript
+# Week 2: AngularJS 101 and TypeScript
 So, here we are. This is the first step into a whole new world. It doesn't matter if it's [Angular](https://angular.io/), [React](https://reactjs.org/), [Vue](https://vuejs.org/) or any `Js` framework. The latest generation of those tools makes the whole development process a breeze.
 Welcome to the SPA world.
 
@@ -441,6 +441,21 @@ Welcome to the SPA world.
 Here at Globant we are technology agnostic, every developer is welcomed to study anything he wants. However we do recommend from a maturity and scalabilty points of view `Angular` or `React`.
 
 This Bootcamp will focus around `Angular` that does not mean that you should stop there, if you want to dig into `React` please do, it'll help you in the future.
+
+## Day XX: AngularJS 101
+
+AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly. AngularJS's data binding and dependency injection eliminate much of the code you would otherwise have to write, and it all happens within the browser.
+
+It attempts to minimize the impedance mismatch between document centric HTML and what an application needs by creating new HTML constructs. AngularJS teaches the browser new syntax through a construct we call directives.
+
+We will focus on some core elements:
+
+- Directives
+- Factory
+- Services
+- Modules
+- Digest cycle
+
 
 ## Day 10: TypeScript 101
 
