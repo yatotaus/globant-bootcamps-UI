@@ -275,7 +275,7 @@ I hope you liked that book, because it's going to stick with us for the rest of 
 
 ### Exercise:
 
-I think you noticed by now, but there are a few exercises inside the reading material (awesome, I know). As we said before, this is just a review but if you want you can do them!
+I think you've noticed by now, but there are a few exercises inside the reading material (awesome, I know). As we said before, this is just a review but if you want you can do them!
 Just put all your work under [javascript-review](src/week0/javascript-review) once you finished the exercises on page.
 
 → [index](#index)
@@ -296,7 +296,7 @@ In this lesson you will learn all about the Prototype, Inheritance, Getters, Set
 
 ### Exercise:
 
-Look into [`src/week2/day1/index.html`](src/week1/day1/index.html) in there there's an `Animal` class with a talk method. Follow the instructions.
+Look into [`src/week1/day1/index.html`](src/week1/day1/index.html) in there there's an `Animal` class with a talk method. Follow the instructions.
 
 ### ~~Not So~~ Optional Reading
 Since ES6 went out we do have a _Class like_ sintax, **HOWEVER** that's [Syntactic Sugar](https://en.wikipedia.org/wiki/Syntactic_sugar).
@@ -321,7 +321,7 @@ Read up and catch 'em all
 - [Errors and debugging](http://eloquentjavascript.net/08_error.html)
 
 ### Exercise:
-Look into [`src/week2/day2`](src/week1/day2) in there there're some `index` files, poke around and follow the instructions.
+Look into [`src/week1/day2`](src/week1/day2) in there there're some `index` files, poke around and follow the instructions.
 
 → [index](#index)
 
@@ -363,7 +363,7 @@ Users communicate with the application via `forms`, those are fill up sections w
 
 
 ### Exercise:
-Look into [`src/week2/day3`](src/week1/day3) in there there're some `index` files, poke around and follow the instructions.
+Look into [`src/week1/day3`](src/week1/day3) in there there're some `index` files, poke around and follow the instructions.
 
 → [index](#index)
 
@@ -398,7 +398,7 @@ Then you can go on with this
 - [How npm works?](https://docs.npmjs.com/how-npm-works/npm3)
 
 ### Exercise:
-Look into [`src/week2/day4-5`](src/week1/day4-5) in there there're some `js` files. Those 2 are `Node.js` apps, they don't work as you would expect from any other `.js` file.
+Look into [`src/week1/day4-5`](src/week1/day4-5) in there there're some `js` files. Those 2 are `Node.js` apps, they don't work as you would expect from any other `.js` file.
 You will need to use the command line:
 ```
 luca.sartori@AR-IT12688:~/bootcamps/ui$
@@ -432,7 +432,7 @@ Don't be afraid to Google stuff, no developer remembers everything
 
 → [index](#index)
 
-# Week 3: TypeScript and Angular 101
+# Week 2: Angular 101 and TypeScript
 So, here we are. This is the first step into a whole new world. It doesn't matter if it's [Angular](https://angular.io/), [React](https://reactjs.org/), [Vue](https://vuejs.org/) or any `Js` framework. The latest generation of those tools makes the whole development process a breeze.
 Welcome to the SPA world.
 
