@@ -125,7 +125,7 @@ account. Also you can read further about Git in
 
 The Bootcamp is organized in the following way:
 
-![Calendar](assets/calendar-new.png)
+![Calendar](assets/calendar-new2.png)
 
 The first week is oriented to learn the basics around HTML and CSS and JavaScript.
 You will be doing some exercises along your reading
