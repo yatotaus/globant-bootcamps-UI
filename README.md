@@ -51,8 +51,9 @@ exercises.
 
 10. [Learning Days](#learning-days)
 
-  - 10.1 [Week 1: HTML, CSS and Javascript](#week-1-html-css-and-javascript)
-  - 10.2 [Week 2: Diving into JavaScript and Node 101](#week-2-diving-into-javascript-and-node-101)
+  - 10.0 [Week 0: HTML, CSS and Javascript (OPTIONAL)](#week-0-html-css-and-javascript-optional)
+  - 10.1 [Week 1: Diving into JavaScript and Node 101](#week-1-diving-into-javascript-and-node-101)
+  - 10.2 [Week 2: angularJS and TypeScript 101](#week-2-angularjs-and-typescript-101)
   - 10.3 [Week 3: TypeScript and Angular 101](#week-3-typescript-and-angular-101)
   - 10.4 [Week 4: Angular 201](#week-4-angular-201)
 
@@ -189,7 +190,7 @@ You will commit all your code on a daily basis, when you finish your practice. T
   need to do.
 
   - All `.js` code can be opened directly on the browser. For Ts and Angular code you will need to run a Liteserver with
-  the Angular CLI. Just running `ng serve` or `npm run serve` will be enough 
+  the Angular CLI. Just running `ng serve` or `npm run serve` will be enough
 
   - Once the server is running, all the modifications you make will be automagically synced and the app will reload.
 
@@ -203,7 +204,7 @@ You will commit all your code on a daily basis, when you finish your practice. T
 
 _Now let's get down to business_
 
-# Week 1: HTML, CSS and JavaScript
+# Week 0: HTML, CSS and JavaScript (OPTIONAL)
 
 ## Day 0: _At the beginning t wast all HTML & CSS_
 
@@ -237,7 +238,7 @@ JavaScript is a programming language that runs in all Web Browsers. Using JavaSc
 ### Exercise:
 So... I'm going to be honest with you, I'm lazy ~~as any dev should~~ and I'm not going to re-invent the weel ~~work extra~~.
 Your first days work is with our friends at [HTML & CSS 101](https://github.com/globant-ui/css-lab).
-Just put all your work under [day0](src/week1/day0)
+Just put all your work under [day0](src/week0/day0)
 
 ### ~~Not so~~ Optional Reading
 - [Responsive Design](https://developers.google.com/web/fundamentals/design-and-ux/responsive/)
@@ -247,7 +248,7 @@ Just put all your work under [day0](src/week1/day0)
 
 → [index](#index)
 
-## Day 3 - 5: Hello JavaScript
+## Day 0.2 - 0.5: Hello JavaScript
 
 _Yes, I know I missed the other days, but c'mon. I'm giving you space to learn._
 
@@ -274,13 +275,13 @@ I hope you liked that book, because it's going to stick with us for the rest of 
 
 I think you noticed by now, but there are a few exercises inside the reading material (awesome, I know). Do them, this is basic `Js` and we need you to have fun with it.
 
-Just put all your work under [day2-5](src/week1/day2-5) once you finished the exercises on page.
+Just put all your work under [day0.2-0.5](src/week1/day0.2-0.5) once you finished the exercises on page.
 
 → [index](#index)
 
-# Week 2: Diving into JavaScript and Node 101
+# Week 1: Diving into JavaScript and Node 101
 
-## Day 6: The Secret Life of Objects
+## Day 1: The Secret Life of Objects
 
 ![Suspicious](assets/suspicious.gif)
 
@@ -294,7 +295,7 @@ In this lesson you will learn all about the Prototype, Inheritance, Getters, Set
 
 ### Exercise:
 
-Look into [`src/week2/day1/index.html`](src/week1/day1/index.html) in there there's an `Animal` class with a talk method. Follow the instructions.
+Look into [`src/week1/day1/index.html`](src/week1/day1/index.html) in there there's an `Animal` class with a talk method. Follow the instructions.
 
 ### ~~Not So~~ Optional Reading
 Since ES6 went out we do have a _Class like_ sintax, **HOWEVER** that's [Syntactic Sugar](https://en.wikipedia.org/wiki/Syntactic_sugar).
@@ -304,7 +305,7 @@ We still have that ~~hideous~~ beautiful `Prototype` under the hood, so don't ge
 
 → [index](#index)
 
-## Day 7: Going Regular with RegEx (Also, learn how to hunt those bugs)
+## Day 2: Going Regular with RegEx (Also, learn how to hunt those bugs)
 One of the most ~~hated~~ used features on any kind of language are Regular Expressions, aka RegEx. Those are **REALLY** powerfull strings (they are more like a really special kind of strings) that allow you to capture any pattern you want on any kind of string. You can make sure all emails accounts end up with `@something.com` or all the names are at most 4 characters long... you get the idea.
 
 Also, you will be learning error handling and some of the finest debugging techniques out there. Or, as I like to call them, **_learn how to properly use your tools_**.
@@ -319,7 +320,7 @@ Read up and catch 'em all
 - [Errors and debugging](http://eloquentjavascript.net/08_error.html)
 
 ### Exercise:
-Look into [`src/week2/day2`](src/week1/day2) in there there're some `index` files, poke around and follow the instructions.
+Look into [`src/week1/day2`](src/week1/day2) in there there're some `index` files, poke around and follow the instructions.
 
 → [index](#index)
 
@@ -361,11 +362,11 @@ Users communicate with the application via `forms`, those are fill up sections w
 
 
 ### Exercise:
-Look into [`src/week2/day3`](src/week1/day3) in there there're some `index` files, poke around and follow the instructions.
+Look into [`src/week1/day3`](src/week1/day3) in there there're some `index` files, poke around and follow the instructions.
 
 → [index](#index)
 
-## Day 8 and 9: require('Node.js')
+## Day 4 and 5: require('Node.js')
 So, at this point you pretty much are up to speed with `Js`. But `Js` does not only run on a
 browser. **YES** you read me right, you can make a `server`, a `robot`, a `game`, you
 can eve run it on an _Arduino_. The sky's the limit.
@@ -396,7 +397,7 @@ Then you can go on with this
 - [How npm works?](https://docs.npmjs.com/how-npm-works/npm3)
 
 ### Exercise:
-Look into [`src/week2/day4-5`](src/week1/day4-5) in there there're some `js` files. Those 2 are `Node.js` apps, they don't work as you would expect from any other `.js` file.
+Look into [`src/week1/day4-5`](src/week1/day4-5) in there there're some `js` files. Those 2 are `Node.js` apps, they don't work as you would expect from any other `.js` file.
 You will need to use the command line:
 ```
 luca.sartori@AR-IT12688:~/bootcamps/ui$
@@ -430,17 +431,27 @@ Don't be afraid to Google stuff, no developer remembers everything
 
 → [index](#index)
 
-# Week 3: TypeScript and Angular 101
+# Week 2: angularJS and TypeScript 101
+
+## Day 6, 7 and 8: angularJS double the binding!
+INTRO HERE
+
+### Reading
+READING MATERIAL
+
+### ~~Not So~~ Optional Reading
+EXTRA MATERIAL
+
+### Excercise
+EXCERCISE
+
+## Day 9 and 10: TypeScript 101
 So, here we are. This is the first step into a whole new world. It doesn't matter if it's [Angular](https://angular.io/), [React](https://reactjs.org/), [Vue](https://vuejs.org/) or any `Js` framework. The latest generation of those tools makes the whole development process a breeze.
 Welcome to the SPA world.
 
 ![New World](assets/newWorld.gif)
 
 Here at Globant we are technology agnostic, every developer is welcomed to study anything he wants. However we do recommend from a maturity and scalabilty points of view `Angular` or `React`.
-
-This Bootcamp will focus around `Angular` that does not mean that you should stop there, if you want to dig into `React` please do, it'll help you in the future.
-
-## Day 10: TypeScript 101
 
 Let's start with [TypeScript](http://www.typescriptlang.org/),  basically a superset of `Js`, with some advantages
 1. Types
@@ -495,8 +506,10 @@ And there's more and more... but that's for you to read:
 
 → [index](#index)
 
+# Week 3: TypeScript and Angular 101
+
 ## Day 11: Still Ts
-Get ready, there's a lot where the previous day came from.
+Get ready, there's a lot where the previous days came from.
 
 ### Reading
 - [Interfaces](http://www.typescriptlang.org/docs/handbook/interfaces.html)
@@ -513,8 +526,7 @@ There is no excercise section on these two days because as this is a superset of
 
 All `Ts` code will be evaluated with `Angular` as that's the language it uses.
 
-
-## Day 12, 13 and 14: Angular 101
+## Day 11, 12, 13 and 14: Angular 101
 So yes, here we are, `Angular`. The **ONE** framework (as they say) you may know it for it's previous generation, the highly important and famous _angular.js_.
 
 _But as they say... water under the bridge._
@@ -666,7 +678,7 @@ _KEEP IT SIMPLE_
 
 If there's a more advanced or complicated way to get to a solution it doesn't always mean that's the better approach.
 
-With that in mind, here are some more advanced _(or not, this **whole** beatifull mess was made by a bored developer on a few days span)_ features that every one should know, and at least being able to explain them. 
+With that in mind, here are some more advanced _(or not, this **whole** beatifull mess was made by a bored developer on a few days span)_ features that every one should know, and at least being able to explain them.
 
 - [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/)
 - [PWAs on Angular](http://www.youtube.com/watch?v=C8KcW1Nj3Mw)
