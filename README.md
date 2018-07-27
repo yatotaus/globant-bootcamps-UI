@@ -248,6 +248,8 @@ Just put all your work under [day0](src/week0/day0)
 
 → [index](#index)
 
+****
+
 ## Day 0.2 - 0.5: Hello JavaScript
 
 _Yes, I know I missed the other days, but c'mon. I'm giving you space to learn._
@@ -305,6 +307,8 @@ We still have that ~~hideous~~ beautiful `Prototype` under the hood, so don't ge
 
 → [index](#index)
 
+****
+
 ## Day 2: Going Regular with RegEx (Also, learn how to hunt those bugs)
 One of the most ~~hated~~ used features on any kind of language are Regular Expressions, aka RegEx. Those are **REALLY** powerfull strings (they are more like a really special kind of strings) that allow you to capture any pattern you want on any kind of string. You can make sure all emails accounts end up with `@something.com` or all the names are at most 4 characters long... you get the idea.
 
@@ -323,6 +327,8 @@ Read up and catch 'em all
 Look into [`src/week1/day2`](src/week1/day2) in there there're some `index` files, poke around and follow the instructions.
 
 → [index](#index)
+
+****
 
 ## Day 3: The browser, where the _magic_ happens
 
@@ -365,6 +371,8 @@ Users communicate with the application via `forms`, those are fill up sections w
 Look into [`src/week1/day3`](src/week1/day3) in there there're some `index` files, poke around and follow the instructions.
 
 → [index](#index)
+
+****
 
 ## Day 4 and 5: require('Node.js')
 So, at this point you pretty much are up to speed with `Js`. But `Js` does not only run on a
@@ -443,7 +451,81 @@ READING MATERIAL
 EXTRA MATERIAL
 
 ### Excercise
-EXCERCISE
+So let's start our engines and get coding.
+
+![Engines](assets/engines.gif)
+
+This is your first app, so we are going to give you hand here.
+
+Have you heard about generators? Basically they are this magic thingy that makes magic and creates a full
+app skeleton for you. That includes, scaffolding, test, automatization task, etc. One of the most popular is
+[Yeoman](http://yeoman.io/).
+
+You are going to use [Yeoman's AngularJS Generator](https://github.com/yeoman/generator-angular) to create your app.
+
+Basically you need to install some dependencies
+```bash
+npm install -g grunt-cli bower yo generator-karma generator-angular
+```
+
+_NOTE_
+
+If you are planning on using Sass, you will need to first install Ruby and Compass:
+
+- Install Ruby by downloading from [here](http://rubyinstaller.org/downloads/) or use Homebrew
+- Install the compass gem:
+``` bash
+gem install compass
+```
+_END NOTE_
+
+Make a new directory, and `cd` into it:
+``` bash
+mkdir my-new-project && cd $_
+```
+
+Run yo angular, optionally passing an app name:
+```bash
+yo angular [app-name]
+```
+
+_IMPORTANT STUFF BELOW_
+
+Run `grunt` for building and `grunt serve` for preview
+
+Aaaaand.... that's it, you have a full AngularJS base app.
+
+__NOW, HACK__
+
+![Hackerman](assets/hackerman.gif)
+
+You are going to do a [CRUD](https://www.codecademy.com/articles/what-is-crud) admin panel.
+
+Nothing fancy, you just need to do:
+
+- A list
+
+![List](assets/list.jpg)
+
+- A create modal (a page with id would be fine as well)
+
+![Create](assets/create.jpg)
+
+
+- An update modal (a page with id would be fine as well)
+
+![Update](assets/update.jpg)
+
+- A delete modal
+
+![Delete](assets/delete.jpg)
+
+__BONUS POINTS__
+
+Use [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to manage a variable (it can be anything on the UI, a button, a select list, a toggle)
+that changes the color scheme (YES, A THEME TOGGLE).
+
+****
 
 ## Day 9 and 10: TypeScript 101
 So, here we are. This is the first step into a whole new world. It doesn't matter if it's [Angular](https://angular.io/), [React](https://reactjs.org/), [Vue](https://vuejs.org/) or any `Js` framework. The latest generation of those tools makes the whole development process a breeze.
@@ -506,6 +588,8 @@ And there's more and more... but that's for you to read:
 
 → [index](#index)
 
+****
+
 # Week 3: TypeScript and Angular 101
 
 ## Day 11: Still Ts
@@ -525,6 +609,8 @@ Get ready, there's a lot where the previous days came from.
 There is no excercise section on these two days because as this is a superset of `Js` you already know how it works. Take them as free days so you can digest all that new info about `Ts` specific features.
 
 All `Ts` code will be evaluated with `Angular` as that's the language it uses.
+
+****
 
 ## Day 11, 12, 13 and 14: Angular 101
 So yes, here we are, `Angular`. The **ONE** framework (as they say) you may know it for it's previous generation, the highly important and famous _angular.js_.
