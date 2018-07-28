@@ -454,8 +454,33 @@ We will focus on some core elements:
 - Factory
 - Services
 - Modules
-- Digest cycle
+- Digest Cycle
 
+1. Directives
+// TODO
+
+2. Factory
+In AngularJS, services are reusable singleton objects that are used to organize and share code across your app. They can be injected into controllers, filters, directives. AngularJS provides you three ways : service, factory and provider to create a service.
+
+Basically, a factory is a simple function which lets you to add some logic before creating the object, and then it returns the object.
+
+3. Services
+Angularjs Services are functions or objects and are used to do specific tasks. This makes them an individual entity which is maintainable and testable. These are singletons. Services are injected using Dependency Injection Mechanism of Angularjs. Services provide a method for us to keep data around the lifetime of the app and communicate across controllers in a consistent manner.
+
+4. Modules
+A module is a collection of providers, services, directives, and optionally config and run blocks which get applied to the application during the bootstrap process.
+
+5. Digest Cycle
+Also called digest loop, it's process of detecting model changes. The name comes from the function $digest that is available on scope instances.
+Digest cycle goes through all the scope objects like Angular expressions or directives and checks which objects got affected due to the activity performed by the user.
+
+### Reading
+- [Directives]()
+- [Factory](https://docs.angularjs.org/guide/providers#factory-recipe)
+- [Services](https://www.airpair.com/javascript/posts/services-in-angularjs-simplified-with-examples)
+- [Service vs Factory](https://blog.thoughtram.io/angular/2015/07/07/service-vs-factory-once-and-for-all.html)
+- [Modules](https://www.journaldev.com/6125/angularjs-module-tutorial-example)
+- [Digest Cycle](http://www.geekhours.com/2016/07/08/understanding-the-digest-cycle-in-angularjs/)
 
 ## Day 10: TypeScript 101
 
