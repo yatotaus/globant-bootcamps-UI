@@ -51,11 +51,11 @@ exercises.
 
 10. [Learning Days](#learning-days)
 
-  - 10.1 [Week 1: Week 0 review. Diving into JavaScript and Node 101](#week-1-html-css-and-javascript)
-  - 10.2 [Week 2: Angular 101 and TypeScript - Part 1](#week-2-diving-into-javascript-and-node-101)
-  - 10.3 [Week 3: TypeScript - Part 2 and Angular 5 - Part 1](#week-3-typescript-and-angular-101)
-  - 10.4 [Week 4: Angular 5 - Part 2 and Challenge](#week-4-angular-201)
-
+  - 10.0 [Week 0: HTML, CSS and Javascript (OPTIONAL)](#week-0-html-css-and-javascript-optional)
+  - 10.1 [Week 1: Diving into JavaScript and Node 101](#week-1-diving-into-javascript-and-node-101)
+  - 10.2 [Week 2: angularJS and TypeScript 101](#week-2-angularjs-and-typescript-101)
+  - 10.3 [Week 3: TypeScript and Angular 101](#week-3-typescript-and-angular-101)
+  - 10.4 [Week 4: Angular 201](#week-4-angular-201)
 
 ### Objective
 
@@ -123,7 +123,7 @@ account. Also you can read further about Git in
 
 The Bootcamp is organized in the following way:
 
-![Calendar](assets/calendar-updated.png)
+![Calendar](assets/calendar-new2.png)
 
 Week 0 is a representation of what should the attendant already know. 
 Basics around HTML, CSS and JavaScript are pretended.
@@ -192,7 +192,7 @@ You will commit all your code on a daily basis, when you finish your practice. T
   need to do.
 
   - All `.js` code can be opened directly on the browser. For Ts and Angular code you will need to run a Liteserver with
-  the Angular CLI. Just running `ng serve` or `npm run serve` will be enough 
+  the Angular CLI. Just running `ng serve` or `npm run serve` will be enough
 
   - Once the server is running, all the modifications you make will be automagically synced and the app will reload.
 
@@ -206,7 +206,7 @@ You will commit all your code on a daily basis, when you finish your practice. T
 
 _Now let's get down to business_
 
-# Week 0: HTML, CSS and JavaScript
+# Week 0: HTML, CSS and JavaScript (OPTIONAL)
 
 ## Day 0: _At the beginning it wasn't all HTML & CSS_
 
@@ -250,7 +250,7 @@ Just put all your work under [hmtl-css-review](src/week0/hmtl-css-review)
 
 → [index](#index)
 
-## Hello JavaScript
+## Day 0.2 - 0.5: Hello JavaScript
 
 _Yes, I know I missed the other days, but c'mon. I'm giving you space to learn._
 
@@ -306,7 +306,9 @@ We still have that ~~hideous~~ beautiful `Prototype` under the hood, so don't ge
 
 → [index](#index)
 
-## Day 7: Going Regular with RegEx (Also, learn how to hunt those bugs)
+
+
+## Day 2: Going Regular with RegEx (Also, learn how to hunt those bugs)
 One of the most ~~hated~~ used features on any kind of language are Regular Expressions, aka RegEx. Those are **REALLY** powerfull strings (they are more like a really special kind of strings) that allow you to capture any pattern you want on any kind of string. You can make sure all emails accounts end up with `@something.com` or all the names are at most 4 characters long... you get the idea.
 
 Also, you will be learning error handling and some of the finest debugging techniques out there. Or, as I like to call them, **_learn how to properly use your tools_**.
@@ -324,6 +326,7 @@ Read up and catch 'em all
 Look into [`src/week1/day2`](src/week1/day2) in there there're some `index` files, poke around and follow the instructions.
 
 → [index](#index)
+
 
 ## Day 3: The browser, where the _magic_ happens
 
@@ -367,7 +370,9 @@ Look into [`src/week1/day3`](src/week1/day3) in there there're some `index` file
 
 → [index](#index)
 
-## Day 8 and 9: require('Node.js')
+
+
+## Day 4 and 5: require('Node.js')
 So, at this point you pretty much are up to speed with `Js`. But `Js` does not only run on a
 browser. **YES** you read me right, you can make a `server`, a `robot`, a `game`, you
 can eve run it on an _Arduino_. The sky's the limit.
@@ -432,17 +437,10 @@ Don't be afraid to Google stuff, no developer remembers everything
 
 → [index](#index)
 
-# Week 2: AngularJS 101 and TypeScript
-So, here we are. This is the first step into a whole new world. It doesn't matter if it's [Angular](https://angular.io/), [React](https://reactjs.org/), [Vue](https://vuejs.org/) or any `Js` framework. The latest generation of those tools makes the whole development process a breeze.
-Welcome to the SPA world.
+# Week 2: angularJS and TypeScript 101
 
-![New World](assets/newWorld.gif)
-
-Here at Globant we are technology agnostic, every developer is welcomed to study anything he wants. However we do recommend from a maturity and scalabilty points of view `Angular` or `React`.
-
+## Day 6, 7 and 8: angularJS double the binding!
 This Bootcamp will focus around `Angular` that does not mean that you should stop there, if you want to dig into `React` please do, it'll help you in the future.
-
-## Day XX: AngularJS 101
 
 AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly. AngularJS's data binding and dependency injection eliminate much of the code you would otherwise have to write, and it all happens within the browser.
 
@@ -456,21 +454,26 @@ We will focus on some core elements:
 - Modules
 - Digest Cycle
 
-1. Directives
+__1. Directives__
+
 // TODO
 
-2. Factory
+__2. Factory__
+
 In AngularJS, services are reusable singleton objects that are used to organize and share code across your app. They can be injected into controllers, filters, directives. AngularJS provides you three ways : service, factory and provider to create a service.
 
 Basically, a factory is a simple function which lets you to add some logic before creating the object, and then it returns the object.
 
-3. Services
+__3. Services__
+
 Angularjs Services are functions or objects and are used to do specific tasks. This makes them an individual entity which is maintainable and testable. These are singletons. Services are injected using Dependency Injection Mechanism of Angularjs. Services provide a method for us to keep data around the lifetime of the app and communicate across controllers in a consistent manner.
 
-4. Modules
+__4. Modules__
+
 A module is a collection of providers, services, directives, and optionally config and run blocks which get applied to the application during the bootstrap process.
 
-5. Digest Cycle
+__5. Digest Cycle__
+
 Also called digest loop, it's process of detecting model changes. The name comes from the function $digest that is available on scope instances.
 Digest cycle goes through all the scope objects like Angular expressions or directives and checks which objects got affected due to the activity performed by the user.
 
@@ -478,11 +481,96 @@ Digest cycle goes through all the scope objects like Angular expressions or dire
 - [Directives]()
 - [Factory](https://docs.angularjs.org/guide/providers#factory-recipe)
 - [Services](https://www.airpair.com/javascript/posts/services-in-angularjs-simplified-with-examples)
-- [Service vs Factory](https://blog.thoughtram.io/angular/2015/07/07/service-vs-factory-once-and-for-all.html)
 - [Modules](https://www.journaldev.com/6125/angularjs-module-tutorial-example)
 - [Digest Cycle](http://www.geekhours.com/2016/07/08/understanding-the-digest-cycle-in-angularjs/)
 
-## Day 10: TypeScript 101
+### ~~Not So~~ Optional Reading
+- [Service vs Factory](https://blog.thoughtram.io/angular/2015/07/07/service-vs-factory-once-and-for-all.html)
+
+### Excercise
+So let's start our engines and get coding.
+
+![Engines](assets/engines.gif)
+
+This is your first app, so we are going to give you hand here.
+
+Have you heard about generators? Basically they are this magic thingy that makes magic and creates a full
+app skeleton for you. That includes, scaffolding, test, automatization task, etc. One of the most popular is
+[Yeoman](http://yeoman.io/).
+
+You are going to use [Yeoman's AngularJS Generator](https://github.com/yeoman/generator-angular) to create your app.
+
+Basically you need to install some dependencies
+```bash
+npm install -g grunt-cli bower yo generator-karma generator-angular
+```
+
+_NOTE_
+
+If you are planning on using Sass, you will need to first install Ruby and Compass:
+
+- Install Ruby by downloading from [here](http://rubyinstaller.org/downloads/) or use Homebrew
+- Install the compass gem:
+``` bash
+gem install compass
+```
+_END NOTE_
+
+Make a new directory, and `cd` into it:
+``` bash
+mkdir my-new-project && cd $_
+```
+
+Run yo angular, optionally passing an app name:
+```bash
+yo angular [app-name]
+```
+
+_IMPORTANT STUFF BELOW_
+
+Run `grunt` for building and `grunt serve` for preview
+
+Aaaaand.... that's it, you have a full AngularJS base app.
+
+__NOW, HACK__
+
+![Hackerman](assets/hackerman.gif)
+
+You are going to do a [CRUD](https://www.codecademy.com/articles/what-is-crud) admin panel.
+
+Nothing fancy, you just need to do:
+
+- A list
+
+![List](assets/list.jpg)
+
+- A create modal (a page with id would be fine as well)
+
+![Create](assets/create.jpg)
+
+
+- An update modal (a page with id would be fine as well)
+
+![Update](assets/update.jpg)
+
+- A delete modal
+
+![Delete](assets/delete.jpg)
+
+__BONUS POINTS__
+
+Use [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to manage a variable (it can be anything on the UI, a button, a select list, a toggle)
+that changes the color scheme (YES, A THEME TOGGLE).
+
+
+
+## Day 9 and 10: TypeScript 101
+So, here we are. This is the first step into a whole new world. It doesn't matter if it's [Angular](https://angular.io/), [React](https://reactjs.org/), [Vue](https://vuejs.org/) or any `Js` framework. The latest generation of those tools makes the whole development process a breeze.
+Welcome to the SPA world.
+
+![New World](assets/newWorld.gif)
+
+Here at Globant we are technology agnostic, every developer is welcomed to study anything he wants. However we do recommend from a maturity and scalabilty points of view `Angular` or `React`.
 
 Let's start with [TypeScript](http://www.typescriptlang.org/),  basically a superset of `Js`, with some advantages
 1. Types
@@ -537,8 +625,12 @@ And there's more and more... but that's for you to read:
 
 → [index](#index)
 
+
+
+# Week 3: TypeScript and Angular 101
+
 ## Day 11: Still Ts
-Get ready, there's a lot where the previous day came from.
+Get ready, there's a lot where the previous days came from.
 
 ### Reading
 - [Interfaces](http://www.typescriptlang.org/docs/handbook/interfaces.html)
@@ -556,7 +648,8 @@ There is no excercise section on these two days because as this is a superset of
 All `Ts` code will be evaluated with `Angular` as that's the language it uses.
 
 
-## Day 12, 13 and 14: Angular 101
+
+## Day 11, 12, 13 and 14: Angular 101
 So yes, here we are, `Angular`. The **ONE** framework (as they say) you may know it for it's previous generation, the highly important and famous _angular.js_.
 
 _But as they say... water under the bridge._
@@ -708,7 +801,7 @@ _KEEP IT SIMPLE_
 
 If there's a more advanced or complicated way to get to a solution it doesn't always mean that's the better approach.
 
-With that in mind, here are some more advanced _(or not, this **whole** beatifull mess was made by a bored developer on a few days span)_ features that every one should know, and at least being able to explain them. 
+With that in mind, here are some more advanced _(or not, this **whole** beatifull mess was made by a bored developer on a few days span)_ features that every one should know, and at least being able to explain them.
 
 - [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/)
 - [PWAs on Angular](http://www.youtube.com/watch?v=C8KcW1Nj3Mw)
